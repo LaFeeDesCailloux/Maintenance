@@ -1,53 +1,50 @@
 /* Police d'écriture */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 /* Paramètres CSS globaux */
 body {
+	margin: 0;
+	padding: 0;
 	background-image: url("../images/fond.jpg");
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	background-position-y: -190px;
 	color: white;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* Centrage du titre et du texte sur la page */
-.centrage {
-	margin-top: 50vh;
-	transform: translateY(-60%);
+article {
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
-/* Titre de la page */
-.titre {
-	font-weight: 900;
-	font-size: 50px;
-	color: #fff;
+article h1 {
+	margin: 0;
+	font-size: 2.8em;
 	text-transform: uppercase;
-	text-shadow: 0 0 0.2em black;
+	text-shadow: 0 0 .5em black;
 }
 
-/* Texte de la page */
-.texte {
-	font-weight: 400;
-	font-size: 30px;
-	color: #fff;
-	line-height: 1.2;
-	text-shadow: 0 0 0.3em black;
+article p {
+	font-size: 1.4em;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 0 .4em black;
 }
 
-@media (max-width: 650px) {
-	.titre {
-		font-size: 40px;
-	}
-	.texte {
-		font-size: 24px;
-	}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
 }
 
-/* Copyright en bas de page */
-.copyright {
-	font-weight: 400;
-	font-size: 12px;
-	color: #cccccc;
-	line-height: 1.4;
-	text-shadow: 0 0 1em black;
+footer p {
+	font-size: .9em;
+	color: #CCC;
+	text-shadow: 0 0 .6em black;
 }
