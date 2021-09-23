@@ -7,7 +7,8 @@ body {
 	padding: 0;
 	background-image: url("../images/fond.jpg");
 	background-repeat: no-repeat;
-	background-position-y: -190px;
+	background-position-y: 66%;
+	background-position-x: center;
 	color: white;
 	font-family: 'Open Sans', Roboto, "Helvetica Neue", Arial, sans-serif;
 }
