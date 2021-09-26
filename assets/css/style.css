@@ -23,12 +23,15 @@ article {
 
 article h1 {
 	margin: 0;
+	padding: 0 12px;
 	font-size: 2.8em;
 	text-transform: uppercase;
 	text-shadow: 0 0 .5em black;
+	text-align: center;
 }
 
 article p {
+	padding: 0 12px;
 	font-size: 1.4em;
 	line-height: 30px;
 	text-align: center;
@@ -45,6 +48,7 @@ footer {
 }
 
 footer p {
+	padding: 0 12px;
 	font-size: .9em;
 	color: #CCC;
 	text-shadow: 0 0 .6em black;
