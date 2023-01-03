@@ -30,12 +30,31 @@ article h1 {
 	text-align: center;
 }
 
-article p {
+article > p {
 	padding: 0 12px;
 	font-size: 1.3em;
 	line-height: 30px;
 	text-align: center;
 	text-shadow: 0 0 .4em black;
+}
+
+article div {
+	padding-inline: 1rem;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+article div > * {
+	background-color: white;
+	padding: 1rem;
+	margin: 0;
+	border-radius: 8px;
+	font-size: 1.6em;
+	color: black;
+	box-shadow: 0 4px .3em rgba(0, 0, 0, .3);
 }
 
 footer {
